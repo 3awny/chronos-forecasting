@@ -160,6 +160,7 @@ def load_model(
     tie_embeddings=False,
     pad_token_id=0,
     eos_token_id=1,
+    logger=None
 ):
     """
     Load the specified HuggingFace model, adjusting the vocabulary
